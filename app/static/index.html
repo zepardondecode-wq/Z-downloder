@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#090909" />
+  <title>Z-downloder — Gothic Social Downloader</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="goth-sky"></div>
+  <div class="grain"></div>
+  <main class="shell">
+    <header class="topbar glass">
+      <div class="brand-wrap">
+        <div class="sigil">Z</div>
+        <div>
+          <div class="brand">Z-downloder</div>
+          <div class="tagline">PUBLIC MEDIA • DARK MODE • NO LOGIN</div>
+        </div>
+      </div>
+      <div class="status"><span></span> ONLINE</div>
+    </header>
+
+    <section class="hero">
+      <div class="moon"><div class="moon-ring"></div></div>
+      <div class="hero-copy">
+        <div class="eyebrow">✦ GOTHIC MEDIA VAULT ✦</div>
+        <h1>Save the <span>signal.</span><br/>Keep the dark aesthetic.</h1>
+        <p>Unduh video publik dari TikTok, Reels Instagram, Facebook, dan Pinterest. Pilih MP4 atau MP3 tanpa meninggalkan halaman.</p>
+      </div>
+    </section>
+
+    <section class="downloader glass">
+      <div class="input-row">
+        <div class="url-box">
+          <span class="url-icon">↯</span>
+          <input id="url" autocomplete="off" placeholder="Tempel link TikTok / IG / Facebook / Pinterest..." />
+          <button id="pasteBtn" class="ghost">PASTE</button>
+        </div>
+        <button id="inspectBtn" class="primary">INSPECT <span>→</span></button>
+      </div>
+
+      <div class="controls">
+        <div class="segmented" role="group" aria-label="Format">
+          <button data-format="mp4" class="segment active">MP4 VIDEO</button>
+          <button data-format="mp3" class="segment">MP3 AUDIO</button>
+        </div>
+        <div class="hint">Supports public links only</div>
+      </div>
+
+      <div id="result" class="result hidden"></div>
+      <div id="error" class="error hidden"></div>
+    </section>
+
+    <section class="cards">
+      <article class="feature-card glass"><div class="icon">♱</div><h3>Cross-platform</h3><p>TikTok, Instagram Reels, Facebook Reels/video, Pinterest Pins.</p></article>
+      <article class="feature-card glass"><div class="icon">◈</div><h3>MP4 / MP3</h3><p>Video tetap video, audio bisa diambil menjadi file MP3.</p></article>
+      <article class="feature-card glass"><div class="icon">☾</div><h3>Photo Slideshow</h3><p>TikTok carousel dicoba lewat resolver khusus dan bisa dirender menjadi MP4.</p></article>
+    </section>
+
+    <footer>
+      <span>Z-downloder</span><span>•</span><span>Only download content you have permission to use.</span>
+    </footer>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
